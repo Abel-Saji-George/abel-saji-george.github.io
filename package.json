@@ -1,0 +1,19 @@
+{
+  "name": "myproject",
+  "version": "0.0.0",
+  "homepage": "http://abel-saji-george.github.io/RandomTestRepo",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base=/RandomTestRepo/",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "three": "^0.136.0"
+  }
+}
