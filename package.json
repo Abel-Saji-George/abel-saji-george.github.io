@@ -1,10 +1,10 @@
 {
   "name": "myproject",
   "version": "0.0.0",
-  "homepage": "https://abel-saji-george.github.io/",
+  "homepage": "https://abel-saji-george.github.io",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/abel-saji-george.github.io/",
+    "build": "vite build --base=/abel-saji-george.github.io/abel-saji-george.github.io",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
